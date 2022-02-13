@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://images.pexels.com/photos/4951277/pexels-photo-4951277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-size: cover;
+}
+header{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+section{
+    display: inline-flex;
+    align-content: center;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 280px;
+    height: 280px;
+    align-content: center;
+    
+}

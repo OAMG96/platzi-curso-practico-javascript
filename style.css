@@ -1,0 +1,142 @@
+body{
+    background: url(https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    position: relative;
+    border:  1px solid gray;
+    text-align: center;
+    height: 105px;
+    
+    
+    
+}
+
+h1{
+    color: black;
+    
+}
+.cards-container{
+    display: inline-flex;
+        grid-template-columns: repeat(auto-fill, 240px);
+        gap: 56px; 
+        place-content: center;
+        padding-top: 52px;
+        
+}
+
+h2{
+    position: relative;
+    left: 80px;
+}
+
+section{
+    display: grid
+}
+
+.cuadrado{
+    
+    display: inline-block;
+    place-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 240px;
+    border: 2px solid black;
+    
+}
+
+div .cuadrado-botones{
+    display: inline-block;
+    place-content: center;
+    padding-top: 55px;
+    
+}
+
+
+
+.cuadrado h2{
+    /* font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center; */
+    border: 4px dashed black;
+    width: 80px;
+    height: 80px;
+}
+
+
+.area{
+    border-radius: 10px;
+    place-content: center;
+    display: grid;
+    left: 15px;
+}
+
+.area label{
+
+    font-size: 15px;
+    text-align: justify;
+}
+
+.area input{
+    position: relative;
+    left: 35px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.area .perimetro{
+  font-size: 10px;
+  border-radius: 10px;
+  position: relative;
+  left: 10px;
+  background-color: blueviolet;
+}
+
+.area .areab{
+    position: relative;
+    font-size: 10px;
+    border-radius: 10px;
+    left: 25px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+.triangulo{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+    
+}
+.triangulo-input{
+    display: grid;
+    width: 35px;
+    
+}
+
+
+
+
+
+
+
+
+.circulo{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    width: 270px;
+    height: 270px;
+    
+}
