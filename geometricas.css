@@ -1,0 +1,208 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* background: url(https://cdn.pixabay.com/photo/2017/05/18/10/27/watercolour-2323195_1280.jpg); */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #ABEBC6  ;
+}
+
+
+
+header{
+    border:  1px solid gray;
+    text-align: center;
+        
+}
+
+header p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* .main-container{
+    display: inline-flex;
+    align-content: center;
+} */
+
+.cards-container{
+    /* border: 5px solid #e1bee7; */
+  
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+
+    place-content: center;
+    /* grid-template-areas:
+    " header header header " 
+    "side main main"
+    "side main main"; */
+    grid-gap: 55px;
+    margin-top: 40px;
+    
+   
+
+}
+
+/* Aqui inicia el cuadrado */
+
+.container-1{
+    display: block;
+    border: 2px solid rgb(8, 8, 8);
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #26d382;
+    
+}
+
+.form-1{
+    
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.input-circulo{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 29px;
+}
+
+.contenido{
+    
+    
+    text-align: center;
+}
+
+.contenido h1{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+/* .contenido h2{
+    border: 1px dotted black;
+    font-size: 15px
+   
+    
+} */
+
+
+
+
+/* .contenido .input-2{
+    border: 1px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 240px;
+} */
+
+div  .botones button{
+    
+    position: relative;
+    top: 15px;
+    width: 85px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+/* button{
+    width: 85px;
+    border-radius: 10px;
+} */
+
+/* Aqui comienza el triangulo */
+
+
+.container-2{
+    border: 2px solid black;
+    width: 300px;
+    height: 290px;
+    border-radius: 11px;
+    background-color: rgb(48, 139, 224);;
+}
+
+.container-2 h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.form-2{
+    text-align: center;
+}
+.form-2 input{
+    border-color: rgb(48, 139, 224);
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: rgb(48, 139, 224);
+    outline: none;
+    /* border-bottom-color: #9e1e9e; */
+
+}
+
+.triangulo-botones button{
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.boton-t1{
+    width: 110px;
+    cursor: pointer;
+}
+.boton-t2{
+    width: 130px;
+    cursor: pointer;
+}
+
+ 
+/* Aqui comienza el circulo */
+
+.container-3{
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-color:  #9e1e9e;;
+}
+
+.container-3 h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form-3{
+    text-align: center;
+}
+
+.form-3 input{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.circulo-botones button{
+    margin-bottom: 215px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.circulo-b1{
+    width: 110px;
+    
+}
+.circulo-b2{
+    width: 130px;
+}
+
+
+footer{
+    background-color: aquamarine;
+
+}

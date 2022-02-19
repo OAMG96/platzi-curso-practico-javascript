@@ -21,7 +21,7 @@ h1{
     
 }
 .cards-container{
-    display: inline-flex;
+    display: grid;
         grid-template-columns: repeat(auto-fill, 240px);
         gap: 56px; 
         place-content: center;
@@ -35,24 +35,26 @@ h2{
 }
 
 section{
-    display: grid
+    display: grid;
 }
 
 .cuadrado{
     
-    display: inline-block;
-    place-content: center;
-    align-items: center;
+    display: inline;
     border-radius: 10px;
-    width: 240px;
+    width: 230px;
     border: 2px solid black;
     
 }
 
-div .cuadrado-botones{
-    display: inline-block;
-    place-content: center;
-    padding-top: 55px;
+div .cuadrado-botones .areab{
+    display: inline;
+    left:  5px;
+    
+}
+div .cuadrado-botones .perimetro{
+    display: inline;
+    left:  0px;
     
 }
 
@@ -83,9 +85,10 @@ div .cuadrado-botones{
 
 .area input{
     position: relative;
-    left: 35px;
+    left: 20px;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .area .perimetro{
@@ -93,15 +96,17 @@ div .cuadrado-botones{
   border-radius: 10px;
   position: relative;
   left: 10px;
-  background-color: blueviolet;
+  background-color: rgb(166, 94, 233);
+  cursor: pointer;
 }
 
 .area .areab{
     position: relative;
     font-size: 10px;
     border-radius: 10px;
+    cursor: pointer;
     left: 25px;
-    background-color: blueviolet;
+    background-color: rgb(166, 94, 233);
 }
 
 
@@ -135,8 +140,22 @@ div .cuadrado-botones{
 .circulo{
     border: 2px solid black;
     border-radius: 10px;
-    display: grid;
+    display: inline;
     width: 270px;
     height: 270px;
     
+}
+
+div .circulo h2{
+    
+    border-radius: 300px;
+    border: 6px dotted black;
+    width: 90px;
+    height: 90px;
+}
+
+.area .InputCirculoo{
+    position: relative;
+    border-radius: 2px;
+    left: 50px;
 }
