@@ -21,11 +21,11 @@
                     <h1> Cuadrado</h1>
                     <div class="input-2">
                         <form class="form-1" action="">
-                            <label for="">¿Cuanto mide cada lado de tu cuadrado?</label>
-                            <input class="input-circulo" type="number" placeholder=".............Lado..........."> 
+                            <label for="input-cuadrado">¿Cuanto mide cada lado de tu cuadrado?</label>
+                            <input id="input-cuadrado" class="input-cuadradoo" type="number" placeholder="..Lado..."> 
                             <div class="botones">
-                                <button type="button">Area</button>
-                                <button type="button">Perimetro</button>
+                                <button type="button" onclick=" calcularareacuadrada()">Area</button>
+                                <button type="button" onclick="calcularperimetrocuadrado()">Perimetro</button>
                             </div>
                         </form>
                     </div>
@@ -35,15 +35,17 @@
             <section class="container-2">
                 <h1>Triangulo</h1>
                 <form class="form-2" action="">
-                    <label for="">¿Cuanto mide cada lado de tu Triangulo?</label>
-                    <input type="number" placeholder="Lado A">
-                    <label for=""></label>
-                    <input type="number" placeholder="Lado B">
-                    <label for=""></label>
-                    <input type="number" placeholder="Lado C">
+                    <label for="input-trianguloA">¿Cuanto mide cada lado de tu Triangulo?</label>
+                    <input id="input-trianguloA" type="number" placeholder="Lado A">
+
+                    <label for="input-trianguloB"></label>
+                    <input id="input-trianguloB" type="number" placeholder="Lado B">
+
+                    <label for="input-trianguloBase"></label>
+                    <input id="input-trianguloBase" type="number" placeholder="Base">
                     <div class="triangulo-botones">
-                        <button type="button" class="boton-t1">Calcular Area</button>
-                        <button type="button" class="boton-t2">Calcular Perimetro</button>
+                        <button type="button" class="boton-t1" onclick="calculararea()">Calcular Area</button>
+                        <button type="button" class="boton-t2" onclick="calcularperimetro()">Calcular Perimetro</button>
                     </div>
                 </form>
             </section>
@@ -51,11 +53,11 @@
             <section class="container-3">
                 <h1>circulo</h1>
                 <form class="form-3" action="">
-                    <label for="">¿Cuanto mide el radio de tu circulo</label>
-                    <input type="number" placeholder="Radio...">
+                    <label for="input-circulo">¿Cuanto mide el radio de tu circulo</label>
+                    <input id="input-circulo" type="number" placeholder="Radio...">
                     <div class="circulo-botones">
-                        <button type="button" class="circulo-b1">Calcular Area</button>
-                        <button type="button" class="circulo-b2">Calcular Perimetro</button>
+                        <button type="button" class="circulo-b1" onclick="calcularareacirculo()">Calcular Area</button>
+                        <button type="button" class="circulo-b2" onclick="calcularperimetrocirculo()">Calcular Perimetro</button>
                     </div>
                 </form>
             </section>
