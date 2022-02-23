@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: blueviolet;
+     background-color: blueviolet; 
 }
 
 header{
@@ -22,7 +22,7 @@ header{
 
     gap: 15px;
     justify-content: center;
-    background-color: blueviolet;
+    
     
 }
 
@@ -48,8 +48,14 @@ img{
     
     
 }
-
 a{
     text-decoration: none;
     color: black;
 }
+
+a:hover{
+    
+    color: rgb(50, 158, 107);
+}
+
+
