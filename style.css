@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: blueviolet;
+}
 
 header{
-    background-color: aquamarine;
+    background-color: rgb(31, 192, 138);
     text-align: center;
+    border-bottom: 2px solid black;
 }
 
  .container{
@@ -25,14 +29,27 @@ header{
 .sub-container{
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 170px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
 
 }
 
 img{
-    width: 150px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20px;
     
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
