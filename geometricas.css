@@ -30,7 +30,7 @@ header p{
 
 .cards-container{
     /* border: 5px solid #e1bee7; */
-  
+    
     margin: 0;
     padding: 0;
     display: grid;
@@ -57,6 +57,8 @@ header p{
     height: 250px;
     border-radius: 15px;
     background-color: #26d382;
+    box-shadow: 10px 10px 5px rgb(73, 76, 77);
+
     
 }
 
@@ -107,9 +109,13 @@ div  .botones button{
     top: 15px;
     width: 85px;
     border-radius: 10px;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
+div  .botones button:hover{
+    background-color: #126a92;
+}
+
+
 
 /* button{
     width: 85px;
@@ -124,7 +130,8 @@ div  .botones button{
     width: 300px;
     height: 290px;
     border-radius: 11px;
-    background-color: rgb(48, 139, 224);;
+    background-color: rgb(48, 139, 224);
+    box-shadow: 10px 10px 5px rgb(73, 76, 77);
 }
 
 .container-2 h1{
@@ -150,16 +157,32 @@ div  .botones button{
     margin-top: 25px;
     border-radius: 10px;
 }
+.triangulo-botones button:hover{
+    background-color: #126a92;
+}
 
 .boton-t1{
     width: 110px;
     cursor: pointer;
 }
-.boton-t2{
+.boton-t2,.boton-t1{
     width: 130px;
     cursor: pointer;
+    background-color: #9e1e9e;
+    animation-duration: 35s;
+    animation-name: example;
 }
 
+@keyframes example{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    30%  {background-color:blue; left:200px; top:200px;}
+    45%  {background-color:green; left:0px; top:200px;}
+    50% {background-color:rgb(219, 58, 133); left:0px; top:0px;}
+    60%  {background-color:rgb(108, 108, 199); left:200px; top:200px;}
+    75%  {background-color:rgb(243, 20, 195); left:0px; top:200px;}
+    100% {background-color:rgb(17, 255, 49); left:0px; top:0px;}
+}
  
 /* Aqui comienza el circulo */
 
@@ -168,13 +191,17 @@ div  .botones button{
     width: 300px;
     height: 250px;
     border-radius: 10px;
-    background-color:  #9e1e9e;;
+    background-color:  #9e1e9e;
+    box-shadow: 10px 10px 5px rgb(73, 76, 77);
+    
+    
 }
 
 .container-3 h1{
     font-size: 25px;
     text-align: center;
     margin-bottom: 35px;
+    
 }
 
 .form-3{
@@ -192,6 +219,11 @@ div  .botones button{
     border-radius: 10px;
     cursor: pointer;
 }
+.circulo-botones button:hover{
+    background-color: #126a92;
+}
+
+
 
 .circulo-b1{
     width: 110px;
