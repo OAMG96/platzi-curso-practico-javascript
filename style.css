@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-     background-color: blueviolet; 
+     background-color: rgb(43, 226, 52); 
 }
 
 header{
@@ -14,17 +14,32 @@ header{
 }
 
  .container{
-    
+     width: 100%;
+     min-width: 235px;
+     max-width: 500px;
      margin-top: 25px;
-     
-    display: grid;
+    display: flex;
     grid-template-columns: 200px 200px 200px;
 
     gap: 15px;
     justify-content: center;
-    
-    
 }
+.container{
+    width: 100%;
+    min-width: 801px;
+    max-width: 00px;
+   
+    margin-top: 25px;
+    
+    display: grid; 
+   grid-template-columns: 200px 200px 200px;
+
+   gap: 15px;
+   justify-content: center;
+}
+
+
+
 
 .sub-container{
     margin-top: 15px;
@@ -36,6 +51,8 @@ header{
     display: grid;
     justify-content: center;
     text-align: center;
+    
+     
     
 
 }
@@ -58,4 +75,6 @@ a:hover{
     color: rgb(50, 158, 107);
 }
 
+
+  
 

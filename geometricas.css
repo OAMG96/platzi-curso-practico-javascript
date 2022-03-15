@@ -14,8 +14,18 @@ body{
 
 
 header{
-    border:  1px solid gray;
+    /* border:  1px solid gray;
+    text-align: center; */
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+
         
 }
 
@@ -30,8 +40,9 @@ header p{
 
 .cards-container{
     /* border: 5px solid #e1bee7; */
-    
-    margin: 0;
+    min-width: 288px;
+    max-width: 900px;
+    /* margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3,300px);
@@ -42,7 +53,15 @@ header p{
     "side main main"
     "side main main"; */
     grid-gap: 55px;
+    margin-top: 40px; 
+    
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
     margin-top: 40px;
+    text-align: center;
+    align-self: center;
     
    
 
@@ -168,6 +187,7 @@ div  .botones button:hover{
 .boton-t2,.boton-t1{
     width: 130px;
     cursor: pointer;
+   
     background-color: #9e1e9e;
     animation-duration: 35s;
     animation-name: example;
@@ -183,7 +203,7 @@ div  .botones button:hover{
     75%  {background-color:rgb(243, 20, 195); left:0px; top:200px;}
     100% {background-color:rgb(17, 255, 49); left:0px; top:0px;}
 }
- 
+  
 /* Aqui comienza el circulo */
 
 .container-3{
